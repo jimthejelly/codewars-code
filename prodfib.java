@@ -25,7 +25,7 @@ public class ProdFib {
     long[] ret = new long[3];
     
     long num1 = 1;
-    long num2 = 0;
+    long num2 = 1;
     while(num2*num1<=prod) {
       if(num1*num2 == prod) {
         ret[0] = num2;
